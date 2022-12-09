@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class AllTests {
 
-	@Test		/** If this is a syntax error, "Quick-Fix" and add JUnit 4 to the project. */
+	@Test		/** If  this is a syntax error, "Quick-Fix" and add JUnit 4 to the project. */
 	public void testGetName() {
 		Customer c = new Customer("David");
 		assertEquals("David", c.getName());
